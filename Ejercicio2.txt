@@ -1,0 +1,85 @@
+1. Inicio
+2. función principal()
+3. salida, d[0-n]
+4. nota1, d[0-n]
+5. nota2, d[0-n]
+6. nota3, d[0-n]
+7. nota4, d[0-n]
+8. <<"Ingresar nota 1:"
+9. >>nota1
+10. <<"Ingresar nota 2:"
+11. >>nota2
+12. <<"Ingresar nota 3:"
+13. >>nota3
+14. <<"Ingresar nota 4:"
+15. >>nota4
+16. resultado <-- obtenerPromedio(nota1, nota2, nota3, nota4)
+17. <<resultado
+18. Función principal de la aleta
+
+19. funcion obtenerPromedio(dato1,d; dato2,d; dato3,d; dato4,d):d
+20. suma, d[0-n]
+21. promedio, d[0-n]
+22. salida, x(200)[{AZ}, {az}, {0-n}, {BS}]
+23. suma <-- dato1 + dato2 + dato3 + dato4
+24. promedio <-- suma / 4
+
+25. Si (promedio >= 0 AND promedio <= 5) entonces
+26. mensaje <-- "El promedio de las notas: " + dato1 + dato2 + dato3 + dato4 + "es " + "Regular"
+27. De lo contrario
+28. Si (promedio >= 5.1 AND promedio <= 8) entonces
+29. mensaje <-- "El promedio de las notas: " + dato1 + dato2 + dato3 + dato4 + "Bueno"
+30. De lo contrario
+32. Si (promedio >= 8.1 AND promedio <= 9) entonces
+33. mensaje <-- "El promedio de las notas: " + dato1 + dato2 + dato3 + dato4 + "Muy Bueno"
+33. De lo contrario
+34. Si (promedio >= 9.1 AND promedio <= 10) entonces
+35. mensaje <-- "El promedio de las notas: " + dato1 + dato2 + dato3 + dato4 + "Sobresaliente"
+36. Fin Si
+37. Fin Si
+38. Fin Si
+39. Fin Si
+40. devuelve el mensaje
+41. fin funcion obtenerPromedio
+42. Aleta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pie de página
+© 2022 GitHub, Inc.
+Pie de página de navegación
+Términos
+Privacidad
+Seguridad
+Estado
+Documentos
+Póngase en contacto con GitHub
+Precios
+API
+Capacitación
+Blog
+Sobre

@@ -1,0 +1,60 @@
+1. Inicio
+
+2. función principal()
+3. final, x(100)[{-nn}, {+, =, *, /,}, {BS}]
+4. mensaje, i [0-n]
+5. << "Ingrese '1' si desea obtener el area de un cuadrado, '2' para obtener el area de un triangulo y '3' para obtener el area de un rectangulo: "
+6. >> mensaje
+7. Si (mensaje == 1) entonces
+8. final <-- obtenerAreaCuadrado
+9. De lo contrario
+10. Si (mensaje == 2) entonces
+11. final <-- obtenerAreaTriangulo
+12. De lo contrario
+13.  Si (mensaje == 3) entonces
+14.  final <-- obtenerAreaRectangulo
+15.   De lo contrario
+16. <<"Error funcion no encotrada."
+17. Fin Si
+18. Fin Si
+19.FinSi
+20. << final
+21. fin función principal
+
+22. funcion obtenerAreaCuadrado() :d
+23. <<"En esta opción permite sacar el Area de un cuadrado."
+24. lado, d [0-n]
+25. áreaC, d [0-n]
+26. <<"Ingrese la medida de uno de los lados del cuadrado: "
+27. >> lado
+28. areaC <-- lado * lado * lado * lado;
+29. área de retornoC
+30. fin funcion obtenerAreaCuadrado
+
+31. funcion obtenerAreaTriangulo() :d
+32. <<"Esta opcion permite sacar el Area de un triangulo."
+33. base, d [0-n]
+34. altura, d [0-n]
+35. áreaT, d [0-n]
+36. <<"Ingrese la base del triangulo: "
+37. >> bases
+38. <<"Ingrese la altura del triangulo: "
+39. >> alto
+40. areaT <-- (base * altura)/2
+41. área de retornoT
+42. fin funcion obtenerAreaTriangulo
+
+43. funcion obtenerAreaRectangulo() :d
+44. <<"Esta opcion permite sacar el area de un rectangulo."
+45. base, d [0-n]
+46. ​​altura, d [0-n]
+47. áreaR, d [0-n]
+48. <<"Ingrese la base del rectongulo: "
+49. >> bases
+50. <<"Ingrese la altura del recto: "
+51. >> alto
+52. areaR <-- base * altura
+53. área de retornoR
+54. fin funcion obtenerAreaRectangulo
+
+55. Final
